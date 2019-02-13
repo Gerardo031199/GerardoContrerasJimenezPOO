@@ -1,5 +1,5 @@
 import java.util.*;
-public class Word{
+public class Palabra{
     //Atributos
     
     public String word;
@@ -36,7 +36,7 @@ public class Word{
     }
 
     public static void main(String[]args){
-        Word newword = new Word();
+        Palabra newword = new Palabra();
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("¿Cual es la palabra?: ");
