@@ -14,15 +14,15 @@ public class Persona{
         int res = 0;
 
         if (imc < 20){
-            res (-1);
+            res -1;
             System.out.println("Tu IMC es: "+imc+" \n Usted tiene peso Bajo");
         }
         else if (imc <=20 && imc <=25){
-            res (0);
+            res 0;
             System.out.println("Tu IMC es: "+imc+" \n Usted tiene peso normal");
         }
         else {
-            res (1);
+            res 1;
             System.out.println("Tu IMC es: "+imc+" \n Usted tiene sobrepeso");
         }
         return res;
@@ -99,13 +99,13 @@ public class Persona{
     
     System.out.println("Ingresa tu nombre: ");
     Scanner scanner = new Scanner(System.in); 
-    Strimg n = scanner.next();
+    String n = scanner.next();
 
     System.out.println("Ingresa tu edad: ");
     int e = scanner.nextInt();
 
     System.out.println("Ingresa tu rfc: ");
-    String r = scanner.nextInt();
+    String r = scanner.next();
 
     System.out.println("Ingresa tu peso: ");
     double p = scanner.nextInt();
